@@ -1,3 +1,6 @@
+!pip install stremlit streamlit-extras ----> Install the streamlit libraries and packages used for the application 
+!pip install pymongo ----> To connect the python interpriter to mongodb database 
+
 import streamlit as st
 from streamlit_extras.grid import grid
 from pymongo import MongoClient
